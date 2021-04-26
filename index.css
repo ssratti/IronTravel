@@ -6,9 +6,19 @@
     z-index: 3;
     background-color:lightblue;
     padding-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
   }
 
 .Top {
 background-color: lightskyblue;
 padding: 20px;
 }
+.header ul {
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    font-size: 20px;
+  }
