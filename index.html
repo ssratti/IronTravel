@@ -12,9 +12,22 @@
     <h1>Voyager</h1>
     <div class="Top">
         <div class="Tabs">
-            <h3>Flights</h3>
-            <h3>Hotels</h3>
-            <h3>Activities</h3>
+            <button type="button">Flights</button>
+            <button type="button">Hotels</button>
+            <button type="button">Activities</button>
+            <div class="search">
+                <form action="/action_page.php">
+                    <label for="departing">Departing City:</label>
+                    <input type="text" id="departing" name="departing"><br><br>
+                    <label for="arriving">Arriving City:</label>
+                    <input type="text" id="arriving" name="arriving"><br><br>
+                    <label for="from">From:</label>
+                    <input type="text" id="from" name="from"><br><br>
+                    <label for="to">To:</label>
+                    <input type="text" id="to" name="to"><br><br>
+                    <input type="submit" value="Bon Voyage">
+                </form>
+            </div>
         </div>
     </div>
     <div class="Bottom">
