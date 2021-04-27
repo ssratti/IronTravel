@@ -12,22 +12,21 @@
   }
 
 .Top {
+background-image: url('./images/Background.png');
+background-repeat: no-repeat;
+background-size: cover;
 background-color: lightskyblue;
-padding: 20px;
 width: 100vw;
-height: 50vh
+height: 40vh;
+display: flex;
+justify-content: center;
+align-items: center;
 }
-.header ul {
-    padding: 0;
-    list-style: none;
-    overflow: hidden;
-    font-size: 20px;
-  }
 
 .headerImgs{
    display: flex;
    flex-direction: row;
    height:5vh;
    margin: 5px
-   
 }
+
