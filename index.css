@@ -1,3 +1,8 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw
+}
 .header {
     box-shadow: 1px 1px 4px 0 rgba(5, 10, 255, 0.1);
     top:0;
@@ -26,16 +31,14 @@ align-items: center;
    flex-direction: row;
    height:5vh;
    margin: 5px;
+   width: 100vw
  
 }
 
 .Tab {
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: lightskyblue;
-    width: 100vw
-  }
-.Tab button {
+  
+/* .Tab button {
     background-color: inherit;
     float: left;
     border: none;
@@ -43,10 +46,10 @@ align-items: center;
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
-  }
-  .Tab button:hover {
+  } */
+  /* .Tab button:hover {
     background-color: #ddd;
-  }
+  } */
   .Tab button.active {
     background-color:lightskyblue;
   }
