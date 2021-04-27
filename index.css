@@ -33,6 +33,7 @@ align-items: center;
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: lightskyblue;
+    width: 100vw
   }
 .Tab button {
     background-color: inherit;
