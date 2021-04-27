@@ -31,26 +31,18 @@ align-items: center;
    flex-direction: row;
    height:5vh;
    margin: 5px;
-   width: 100vw
+   width: 100vw;
+   justify-content: space-between;
  
 }
-
-.Tab {
-    overflow: hidden;
-  
-/* .Tab button {
-    background-color: inherit;
-    float: left;
+.btn {
     border: none;
-    outline: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
     cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-  } */
-  /* .Tab button:hover {
-    background-color: #ddd;
-  } */
-  .Tab button.active {
-    background-color:lightskyblue;
+    display: inline-block;
+    font-size: 25px;
+    font-style: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
   }
-  
