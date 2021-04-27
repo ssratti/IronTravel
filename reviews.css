@@ -1,4 +1,9 @@
-
+body{
+    background-color: lightskyblue;
+    width: 100vw;
+    height: 100vh;
+   
+}
   
 .review1{
     display: flex;
