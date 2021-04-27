@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+
+img{
+    height: 500px;
+    border-radius: 0.5em;
+}
+
+.container{
+    border: 2px black solid;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.bodyContent{
+    max-width: 1000px;
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+}
+
+h1{
+   font-weight: 700;
+   font-size: 3.5rem;
+   margin-top: 0.5rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.box-1-p{
+
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.box-1, .box-2, .box-3, .box-4, .box-5, .box-6{
+    border-bottom: 2px black solid;
+    
+}
+
+p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    width: 80%;
+}
