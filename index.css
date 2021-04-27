@@ -29,3 +29,24 @@ align-items: center;
  
 }
 
+.Tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: lightskyblue;
+  }
+.Tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  .Tab button:hover {
+    background-color: #ddd;
+  }
+  .Tab button.active {
+    background-color:lightskyblue;
+  }
+  

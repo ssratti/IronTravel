@@ -24,32 +24,29 @@
     </header>
 
     <div class="Top">
-        <div class="Tabs">
 
 
-            <div class="search">
-                <form action="/action_page.php">
-                    <label for="departing">Departing:</label>
-                    <input type="text" id="departing" name="departing"><br><br>
-                    <label for="arriving">Arriving:</label>
-                    <input type="text" id="arriving" name="arriving"><br><br>
-                    <label for="from">From:</label>
-                    <input type="text" id="from" name="from"><br><br>
-                    <label for="to">To:</label>
-                    <input type="text" id="to" name="to"><br><br>
-                    <input type="submit" value="Bon Voyage">
-                </form>
-            </div>
+
+        <div class="search">
+            <form action="/action_page.php">
+                <label for="departing">Departing:</label>
+                <input type="text" id="departing" name="departing"><br><br>
+                <label for="arriving">Arriving:</label>
+                <input type="text" id="arriving" name="arriving"><br><br>
+                <label for="from">From:</label>
+                <input type="text" id="from" name="from"><br><br>
+                <label for="to">To:</label>
+                <input type="text" id="to" name="to"><br><br>
+                <input type="submit" value="Bon Voyage">
+            </form>
         </div>
-    </div>
-    <div class="Bottom">
-        <button type="button">Flights</button>
-        <button type="button">Hotels</button>
-        <button type="button">Activities</button>
-        <br><br>
 
     </div>
-
+    <div class="Tab">
+        <button class="tablinks" onclick="openTabs(event, 'Flights')">Flights</button>
+        <button class="tablinks" onclick="openTabs(event, 'Hotels')">Hotels</button>
+        <button class="tablinks" onclick="openTabs(event, 'Activities')">Activities</button>
+    </div>
 
 </body>
 
