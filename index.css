@@ -32,6 +32,7 @@ align-items: center;
    height:5vh;
    margin: 5px;
    width: 100vw;
+   height:45px;
    justify-content: space-between;
  
 }
@@ -42,7 +43,18 @@ align-items: center;
     font-size: 16px;
     cursor: pointer;
     display: inline-block;
-    font-size: 25px;
+    font-size: 20px;
     font-style: bold;
+    color: rgb(221, 19, 19);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
   }
+
+ .tablinks{
+     background-color: rgb(231, 35, 35);
+   
+ }
+
+ .tab{
+     display: flex;
+     justify-content: space-around;
+ }
