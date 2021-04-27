@@ -1,60 +1,81 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    width: 100vw
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
 }
-.header {
-    box-shadow: 1px 1px 4px 0 rgba(5, 10, 255, 0.1);
-    top:0;
-    width: 100vw;
-    background-color:lightblue;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 
-  }
+.tablinks {
+  background-color: #324e73;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit {
+  border-radius: 30px;
+  background-color: #f8fcfe;
+  padding: 20px;
+}
+.bonvoy {
+  background-color: #f20519;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.header {
+  box-shadow: 1px 1px 4px 0 rgba(5, 10, 255, 0.1);
+  top: 0;
+  width: 100vw;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 .Top {
-background-image: url('./images/Background.png');
-background-repeat: no-repeat;
-background-size: cover;
-background-color: lightskyblue;
-width: 100vw;
-height: 40vh;
-display: flex;
-justify-content: center;
-align-items: center;
+  background-image: url("./images/Background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: lightskyblue;
+  width: 100vw;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.headerImgs{
-   display: flex;
-   flex-direction: row;
-   height:5vh;
-   margin: 5px;
-   width: 100vw;
-   height:45px;
-   justify-content: space-between;
- 
+.headerImgs {
+  display: flex;
+  flex-direction: row;
+  height: 5vh;
+  margin: 5px;
+  width: 100vw;
+  height: 45px;
+  justify-content: space-between;
 }
 .btn {
-    border: none;
-    background-color: inherit;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 20px;
-    font-style: bold;
-    color: rgb(221, 19, 19);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-  }
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  font-style: bold;
+  color: #f20519;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-decoration: underline;
+}
 
- .tablinks{
-     background-color: rgb(231, 35, 35);
-   
- }
-
- .tab{
-     display: flex;
-     justify-content: space-around;
- }
+.tab {
+  display: flex;
+  justify-content: space-around;
+}
