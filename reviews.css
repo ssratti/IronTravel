@@ -1,0 +1,29 @@
+
+  
+.review1{
+    display: flex;
+    justify-content: space-around;
+
+}
+.person1{
+    display: flex;
+    align-items: flex-start;
+}
+.review2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.review3{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    
+}
+.reviews{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
